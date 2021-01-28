@@ -1,0 +1,146 @@
+.chat_area {
+  width: 80%;
+  margin:  0 auto;
+}
+.text_sub {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto auto auto 20px;
+}
+#title {
+  width: 80%;
+  margin: 20px 100px 60px;
+  padding: 5px 10px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #000;
+  background-color: rgba(217, 255, 33, .2);
+}
+input::placeholder {
+ color: rgba(255, 0, 0, .5);
+}
+
+#contents {
+  height: 220px;
+  width: 95%;
+  margin: 20px 30px 30px;
+  padding: 10px;
+  font-size: 15px;
+  resize: none;
+  outline: none;
+  border: 2px solid #000;
+  background-color:  rgba(18, 83, 168, .7);
+}
+.chat {
+  background-color: #ccc;
+  border: solid 2px #000;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.chat_right .chat_name {
+  text-align: right;
+  margin-right: 3%;
+}
+
+.chat_right .chat_inner {
+  position: relative;
+  display: block;
+  margin: 1% 3% 5% 45%;
+  padding: 5px 10px;
+  min-width: 50%;
+  max-width: 65%;
+  color: #111;
+  font-size: 16px;
+  border: solid 3px #111;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.chat_right .chat_inner:before {
+  content: "";
+  position: absolute;
+  top: -48%;
+  right: 28px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+
+.chat_right .chat_inner:after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  right: 26px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #111;
+  z-index: 1;
+}
+
+.chat_left .chat_name {
+  text-align: left;
+  margin-left: 3%;
+}
+
+.chat_left .chat_inner {
+  position: relative;
+  display: block;
+  margin: 1% 45% 5% 3%;
+  padding: 5px 10px;
+  min-width: 50%;
+  max-width: 65%;
+  color: #111;
+  font-size: 16px;
+  border: solid 3px #111;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+.chat_left .chat_inner:before {
+  content: "";
+  position: absolute;
+  top: -48%;
+  left: 28px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+
+.chat_left .chat_inner:after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: 26px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #111;
+  z-index: 1;
+}
+.chat_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat_time {
+  font-size: 10px;
+  text-align: right;
+}
+.chat_add {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+}
+.chat_text {
+  padding: 5px;
+  width: 80%;
+  resize: none;
+}
+.chat_btn {
+  font-size: 20px;
+  margin: 0 auto;
+}
+#add_btn {
+  font-size: 20px;
+  margin: 0 auto;
+}

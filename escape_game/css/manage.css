@@ -1,0 +1,49 @@
+
+#user_manege{
+    width: 80%;
+    margin: 10px auto;
+}
+#user_top{
+    width: 80%;
+    margin: 30px auto;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user_box{
+    margin: 15px;
+    width: 25%
+}
+.user_name{
+    padding: 10px;
+}
+.user_name #status{
+    border-top: dotted 1px #fff ;
+    font-weight: bold;
+    padding: 5px;
+}
+#thread_manege{
+    width: 80%;
+    margin: 10px auto;
+}
+#thread_top{
+    width: 80%;
+    margin: 30px auto;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thread_box{
+    margin: 15px;
+    width: 25%;
+}
+.thread_title{
+    padding: 10px;
+}
+.thread_title #status{
+    border-top: dotted 1px #fff ;
+    font-weight: bold;
+    padding: 5px;
+}

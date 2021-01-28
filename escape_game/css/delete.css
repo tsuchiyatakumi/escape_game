@@ -1,0 +1,37 @@
+#delete_top {
+    margin: 50px auto;
+    width: 260px;
+    height: 42px;
+    background-color: white;
+    display: flex;
+}
+
+#delete_logo {
+    width: 42px;
+    height: 42px;
+}
+
+#delete_p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#delete {
+    margin: 30px auto 0;
+    font-size: 20px;
+    text-align: center;
+    color: white
+}
+
+#delete a {
+    color: white;
+}
+#delete p {
+    text-align: center;
+    margin: 10px auto;
+}
+span {
+    color: red;
+    font-weight: bold;
+}

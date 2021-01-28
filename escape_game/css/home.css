@@ -1,0 +1,99 @@
+.board_top {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 2px solid #D9FF21;
+    display: flex;
+    justify-content: flex-end;
+}
+.bulletin_area {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #1d5fb3;
+    width: 80%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.thread {
+    width: 80%;
+    margin: 15px auto 0;
+}
+.thread_title {
+    height: 40px;
+    border: solid 1px #000;
+}
+.thread_title p {
+    font-size: 18px;
+    line-height: 40px;
+}
+.thread_content {
+    padding: 10px;
+    border: solid 1px #000;
+    border-top: none;
+    display: none;
+    max-height: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.thread_content p {
+    overflow: hidden;
+}
+.thread_join {
+    display: flex;
+    justify-content: flex-end;
+}
+#join {
+    height: 35px;
+    border: solid 1px #000;
+    margin-top: 10px;
+}
+.thread_join input {
+    display: block;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.done_btn {
+    display: block;
+    height: 40px;
+    border: solid 1px #000;
+    border-radius: 35px;
+    box-shadow: 0 5px;
+    background-color:#D9FF21
+}
+
+.done_btn:hover {
+    background-color: #1253a8;
+    color: #ffffff;
+}
+.done_btn:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 0;
+}
+.done_btn a {
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-weight: bold;
+}
+#edit{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 2px solid #D9FF21;
+    display: flex;
+    justify-content: flex-end;
+}
+#user_area{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1d5fb3;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#user_area h4{
+    padding: 10px;
+    font-size: 20px;
+}

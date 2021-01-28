@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	 background-color: #3273c7;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+body.home{
+	background: url(../img/home.png) no-repeat #3273c7;
+	background-position: top;
+}
+
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+header {
+	margin: 130px auto 0;
+    width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+.header_btn {
+	border: solid 2px #1253a8 ;
+	background-color: transparent;
+	height: 40px;
+	width: 100px;
+	margin-right: 30px;
+}
+.header_btn a {
+	display: block;
+	height: 40px;
+	width: 90px;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+}
+#header_1 {
+	transform: rotate(8deg);
+}
+#header_2 {
+	transform: rotate(-8deg);
+}
+.header_btn:hover {
+	border: dotted 2px #fff;
+}
+.header_btn a:hover{
+	color: #D9FF21;
+	font-weight: bold;
+}
+#wrapper {
+	margin: 0 auto;
+	background-color: #3273c7;
+	position: relative;
+}
+#logo {
+    width: 1000px;
+    margin: 0 auto;
+}
+.text {
+    width: 1000px;
+    margin: 150px auto 10px;
+}
+.text p {
+	padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.text_sub {
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto auto auto 20px;
+  }
+#join_logo {
+    margin: 10px 10px 0 0;
+    width: 42px;
+    height: 42px;
+}
+p.error {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.done_btn {
+    display: block;
+    height: 40px;
+    border: solid 1px #000;
+    border-radius: 35px;
+    box-shadow: 0 5px;
+    background-color:#D9FF21
+}
+
+.done_btn:hover {
+    background-color: #1253a8;
+    color: #ffffff;
+}
+.done_btn:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 0;
+}
+.done_btn a {
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer {
+	padding-top: 50px;
+	/* background-color: #3273c7; */
+	background-color: transparent;
+	/* position: fixed;
+	top: calc(100% - 10%);
+    left: calc(100% - 62%); */
+}
+.footer p {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}

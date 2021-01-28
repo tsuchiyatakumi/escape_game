@@ -1,0 +1,47 @@
+#edit{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 2px solid #D9FF21;
+    display: flex;
+    justify-content: flex-end;
+}
+#edit_text{
+    text-align: center;
+}
+#user_area{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1d5fb3;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#user_area h4{
+    padding: 10px;
+    font-size: 20px;
+}
+#edit_area{
+    margin: 0 auto;
+    font-size: 20px;
+}
+#edit_area dt {
+    text-align: center;
+    color: white;
+    margin: 20px auto 20px auto;
+}
+#edit_area dt input{
+    height: 30px;
+}
+#edit_area dt select{
+    height: 30px;
+}
+#edit_area #edit_btn{
+    margin: 20px auto;
+    font-size: 16px;
+}
+#edit_area a{
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
